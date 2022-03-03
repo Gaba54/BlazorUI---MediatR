@@ -5,7 +5,7 @@ namespace DemoLib.DataAccess
 {
     public interface IDataAccess
     {
-        List<PersonalModel> GetPeople();
-        PersonalModel InsertPerson(string firstname, string lastname);
+        List<PersonModel> GetPeople();
+        PersonModel InsertPerson(string firstname, string lastname);
     }
 }
